@@ -1,7 +1,9 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Poppins } from 'next/font/google'
+import { useState } from 'react'
 
-const inter = Inter({ subsets: ['latin'] })
+const poppins = Poppins({ weight: ['400', '600', '700'], subsets: ['latin'], display: 'swap' })
+// export const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Travel Bunny App',
@@ -15,7 +17,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${poppins.className}`}> {children}</body>
     </html>
   )
 }
+
