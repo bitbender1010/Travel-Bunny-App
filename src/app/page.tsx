@@ -17,7 +17,7 @@ export default function Home() {
       <nav>
         <div>
           <Image 
-            src='/images/TravelBunny-Logo.svg'
+            src='/images/TravelBunnyLogo.svg'
             width={100}
             height={100}
             alt='TravelBunny Logo'

@@ -126,3 +126,28 @@ nav ul {
     font-size: 20px;
   }
 }
+
+form {
+  margin: 0px 20%;
+}
+
+input {
+  border: 2px solid black;
+  width: 100%;
+  height: 50px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 20px;
+  background: red;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.pls {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 50px 10px;
+}
