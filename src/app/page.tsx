@@ -49,7 +49,7 @@ export default function Home() {
       <div className='banner'>
         <h1 className={`${fredoka.className} banner-main-tx`}>Discover and explore new places and experiences on a budget</h1>
         <div className='banner-sub-tx'>TravelBunny is the perfect way to explore the world with friends. Join group tours or plan your own, and make memories that will last a lifetime.</div>
-        <Link href="https://bit.ly/travel-bunny-waitlist"> <button className='join-waitlist'>Start Exploring...</button> </Link>
+        <Link href="/auth/signup"> <button className='join-waitlist'>Start Exploring...</button> </Link>
       </div>
 
     </div>
