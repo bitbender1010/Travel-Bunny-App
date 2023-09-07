@@ -128,7 +128,7 @@ nav ul {
 }
 
 form {
-  margin: 0px 20%;
+  margin: 0px 10%;
 }
 
 input {
@@ -142,7 +142,10 @@ input {
 
 .gea {
   margin-top: 20px;
-  background: red;
+  background: #ff385c;
+  border: 2px solid #000;
+  color: white;
+  font-weight: bold;
   padding: 10px 20px;
   border-radius: 5px;
 }
