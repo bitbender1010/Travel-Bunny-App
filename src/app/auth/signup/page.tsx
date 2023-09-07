@@ -12,7 +12,7 @@ const SignUp = () => (
             <input type="hidden" name="form-name" value="contact-form" />
 
             <label>Email Address</label>
-            <input type='text' name='email-address'/>
+            <input type='email' name='email-address'/>
             
             <label>First Name</label>
             <input type='text' name='first-name'/>
