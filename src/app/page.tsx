@@ -52,6 +52,12 @@ export default function Home() {
         <Link href="/auth/signup"> <button className='join-waitlist'>Start Exploring...</button> </Link>
       </div>
 
+        {/* Winner */}
+        <div className='winner'>
+        <div className='w-tx'>Last year, we won the "Tourism Hackathon Nigeria" 1.0 - supported by the UNWTO</div>
+        <img src='/images/imagee.jpg' className='w-img'/>
+      </div>
+
     </div>
     </main>
   )
